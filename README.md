@@ -1,7 +1,10 @@
 # Tit-Windows
 Arduino tool chain support for Tit on Windows. Tit is Arduino SW compatible Atmega328PB based board in Arduino pro-mini form factor.
 
-To install support for Tit on windows, simply extract the contents of this repository to **/hardware** directory of your arduino sketch directory.
+To install support for Tit on windows, simply extract the contents the latest release to **/hardware** directory of your arduino sketch directory.
+
+After extracting the directory structure should look like
+**..\Documents\Arduino\hardware\Tit-Windows**
 
 To find out the location, click  File>Preferences and look for 'Sketchbook location'. Usually it is under documents/arduino/hardware. If you do not find a directory named hardware, create it. 
 
