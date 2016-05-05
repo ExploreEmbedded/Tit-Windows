@@ -1,0 +1,31 @@
+menu.speed=Speed
+atmega328pbcc.name=Tit
+atmega328pbcc.bootloader.file=optiboot/optiboot_m328pb.hex
+atmega328pbcc.bootloader.unlock_bits=0x3F
+atmega328pbcc.bootloader.lock_bits=0xCF
+atmega328pbcc.upload.tool=avrdude
+atmega328pbcc.upload.protocol=arduino
+atmega328pbcc.upload.maximum_size=32256
+atmega328pbcc.upload.maximum_data_size=2048
+atmega328pbcc.upload.speed=57600
+atmega328pbcc.build.mcu=atmega328pb
+atmega328pbcc.build.board=AVR_UNO
+atmega328pbcc.build.core=arduino:arduino
+atmega328pbcc.build.variant=atmega328pb
+atmega328pbcc.bootloader.tool=avrdude
+atmega328pbcc.bootloader.low_fuses=0xFF
+atmega328pbcc.bootloader.high_fuses=0xDC
+atmega328pbcc.bootloader.extended_fuses=0xF5
+atmega328pbcc.menu.speed.16mhz=16 MHz
+atmega328pbcc.menu.speed.16mhz.build.f_cpu=16000000L
+atmega328pbcc.menu.speed.8mhz=8 MHz
+atmega328pbcc.menu.speed.8mhz.build.f_cpu=8000000L
+atmega328pbcc.menu.speed.4mhz=4 MHz
+atmega328pbcc.menu.speed.4mhz.build.f_cpu=4000000L
+atmega328pbcc.menu.speed.1mhz=1 MHz
+atmega328pbcc.menu.speed.1mhz.build.f_cpu=1000000L
+atmega328pbcc.menu.speed.20mhz=20 MHz
+atmega328pbcc.menu.speed.20mhz.build.f_cpu=20000000L
+
+
+
